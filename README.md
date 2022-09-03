@@ -1,2 +1,19 @@
-# helperFunctions.lua
-collection of helper functions
+# helperFunctions-lib
+
+collection of helper-functions
+
+---
+
+## Tablefunctions
+
+- map
+- filter
+- copyTable
+
+---
+
+## Other functions
+
+- quickSort
+
+---
