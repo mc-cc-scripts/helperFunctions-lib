@@ -90,7 +90,6 @@ function HelperFunctions.copyTable(orig)
     return copy
 end
 
---- returns tablelength of any table
 ---@param o table
 ---@return string
 ---@source https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console#answer-27028488
@@ -107,6 +106,7 @@ function HelperFunctions.dump(o)
     end
 end
 
+--- returns tablelength of any table
 ---@param T table
 ---@return integer
 ---@source: https://stackoverflow.com/a/2705804/10495683
