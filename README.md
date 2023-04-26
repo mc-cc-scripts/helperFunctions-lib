@@ -4,11 +4,12 @@ collection of helper-functions
 
 ---
 
-## Tablefunctions
+## Table functions
 
 - map
 - filter
 - copyTable
+- tablelength
 
 ---
 
