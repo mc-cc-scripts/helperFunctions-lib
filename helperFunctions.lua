@@ -95,7 +95,7 @@ end
 ---@param orig table
 ---@return table
 ---@source http://lua-users.org/wiki/CopyTable
-function HelperFunctions.deepcopy(original)
+function HelperFunctions.deepCopy(original)
     return HelperFunctions.copyTable(original)
 end
 
