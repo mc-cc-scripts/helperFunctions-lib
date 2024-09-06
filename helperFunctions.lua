@@ -90,6 +90,15 @@ function HelperFunctions.copyTable(orig)
     return copy
 end
 
+
+--- copies table (legacyCall)
+---@param orig table
+---@return table
+---@source http://lua-users.org/wiki/CopyTable
+function HelperFunctions.deepcopy(original)
+    return HelperFunctions.copyTable(original)
+end
+
 ---@param o table
 ---@return string
 ---@source https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console#answer-27028488
