@@ -83,7 +83,7 @@ function HelperFunctions.copyTable(orig)
         for orig_key, orig_value in next, orig, nil do
             copy[HelperFunctions.copyTable(orig_key)] = HelperFunctions.copyTable(orig_value)
         end
-        setmetatable(copy, HelperFunctions.copyTable(getmetatable(orig)))
+        setmetatable(copy, getmetatable(orig))
     else -- number, string, boolean, etc
         copy = orig
     end
